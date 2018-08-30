@@ -1,0 +1,31 @@
+/* Lists */
+ul.trx_addons_list {
+	padding-left:1.3em;
+}
+ul.trx_addons_list > li:before {
+	left: -1.3em;
+}
+ul.trx_addons_list_dot_red > li:before,
+ul.trx_addons_list_dot_dark > li:before {
+	content:' ';
+	display:block;
+	width:5px;
+	height:5px;
+	margin-top: 0.7em;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
+	background-color: #f7542b;
+}
+ul.trx_addons_list_dot_dark > li:before {
+	background-color: #1d1d1d;
+}
+ul.trx_addons_list_arrow {
+	padding-left: 1.7em;
+}
+ul.trx_addons_list_arrow > li:before {
+	content:'\e8f5';
+	font-family:'fontello';
+	left: -1.5em;
+	color: #1d1d1d;
+}
